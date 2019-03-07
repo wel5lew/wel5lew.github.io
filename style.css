@@ -6,6 +6,42 @@
 	background-color: #dd68a6;
 }
 
+
+
+
+
+
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-brand li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f85974;
+}
+
+
+
+
+.card-img-top{
+	height: 200px; 
+}
+
+
 .main-headline{
 
 	font-size: 500px;
@@ -109,3 +145,8 @@ html, body{
 .fa-youtube:hover{
 	color: #d5d5d5;
 }
+
+.title{
+	padding: 15rem;
+}
+
