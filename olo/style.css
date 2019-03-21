@@ -35,7 +35,7 @@ body{
 
 .home-inner{
 
-  background-image: url(img/chris-liverani-510543-unsplash.png);
+  background-image: url(img/Background.jpg);
 }
 .caption{
   width: 100%;
@@ -197,6 +197,14 @@ footer{
 }
 .head-2{
   font-size: 2rem;
+}
+.name{
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+.gap{
+  margin-right: 20px;
+  margin-left: 20px;
 }
 /*============= COURSE SECTION =============*/
 
