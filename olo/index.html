@@ -215,13 +215,13 @@
 			</button>
 		</div>
 		<!--форма-->
-		<form>
+		<form action="mail.php" method="POST">
   <div class="row">
     <div class="col name">
-      <input type="text" class="form-control" placeholder="Имя">
+      <input type="text" class="form-control" name="user-name" placeholder="Имя">
     </div>
     <div class="col name">
-      <input type="text" class="form-control" placeholder="Фамилия">
+      <input type="text" class="form-control" name="user-last_name" placeholder="Фамилия">
     </div>
   </div>
 </form>
@@ -256,7 +256,7 @@
     </div>
     </div>
     <div class="modal-footer">
-    	<button class="btn btn-outline-secondary btn-blue">ОТПРАВИТЬ</button>
+    	<button type="submit" class="btn btn-outline-secondary btn-blue">ОТПРАВИТЬ</button>
     </div>
 	</div>
 </div>
